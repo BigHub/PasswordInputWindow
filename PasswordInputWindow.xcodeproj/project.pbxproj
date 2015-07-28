@@ -13,6 +13,7 @@
 		E5B0D08A1B67A7D7008F3681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B0D0891B67A7D7008F3681 /* Images.xcassets */; };
 		E5B0D08D1B67A7D7008F3681 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B0D08B1B67A7D7008F3681 /* LaunchScreen.xib */; };
 		E5B0D0991B67A7D7008F3681 /* PasswordInputWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0D0981B67A7D7008F3681 /* PasswordInputWindowTests.swift */; };
+		E5B0D0A41B67A84F008F3681 /* PasswordInputWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0D0A31B67A84F008F3681 /* PasswordInputWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E5B0D0921B67A7D7008F3681 /* PasswordInputWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordInputWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B0D0971B67A7D7008F3681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B0D0981B67A7D7008F3681 /* PasswordInputWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputWindowTests.swift; sourceTree = "<group>"; };
+		E5B0D0A31B67A84F008F3681 /* PasswordInputWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordInputWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 		E5B0D07F1B67A7D7008F3681 /* PasswordInputWindow */ = {
 			isa = PBXGroup;
 			children = (
+				E5B0D0A21B67A816008F3681 /* PasswordInputWindow */,
 				E5B0D0821B67A7D7008F3681 /* AppDelegate.swift */,
 				E5B0D0841B67A7D7008F3681 /* ViewController.swift */,
 				E5B0D0861B67A7D7008F3681 /* Main.storyboard */,
-				E5B0D0891B67A7D7008F3681 /* Images.xcassets */,
-				E5B0D08B1B67A7D7008F3681 /* LaunchScreen.xib */,
 				E5B0D0801B67A7D7008F3681 /* Supporting Files */,
 			);
 			path = PasswordInputWindow;
@@ -90,6 +91,8 @@
 		E5B0D0801B67A7D7008F3681 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E5B0D0891B67A7D7008F3681 /* Images.xcassets */,
+				E5B0D08B1B67A7D7008F3681 /* LaunchScreen.xib */,
 				E5B0D0811B67A7D7008F3681 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +113,14 @@
 				E5B0D0971B67A7D7008F3681 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5B0D0A21B67A816008F3681 /* PasswordInputWindow */ = {
+			isa = PBXGroup;
+			children = (
+				E5B0D0A31B67A84F008F3681 /* PasswordInputWindow.swift */,
+			);
+			path = PasswordInputWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B0D0A41B67A84F008F3681 /* PasswordInputWindow.swift in Sources */,
 				E5B0D0851B67A7D7008F3681 /* ViewController.swift in Sources */,
 				E5B0D0831B67A7D7008F3681 /* AppDelegate.swift in Sources */,
 			);
